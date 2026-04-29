@@ -1,0 +1,28 @@
+# 环境与缓存
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# 大文件/模型/数据（不上传Git）
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+data/
+dataset/
+models/
+checkpoints/
+
+# 日志
+logs/
+runs/
+*.log
+wandb/
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
